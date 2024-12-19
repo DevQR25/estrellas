@@ -1,0 +1,95 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* Estilos de encabezado */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Centrado de los títulos de las secciones */
+main section h2 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Estilo principal */
+main {
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+    max-width: 1200px;
+}
+
+main section {
+    margin-bottom: 20px;
+}
+
+/* Fondo negro y texto blanco para los párrafos */
+main section p {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Centrado de las imágenes */
+main section img {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2c3e50;
+    color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
